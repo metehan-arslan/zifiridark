@@ -10,11 +10,15 @@ I highly recommend using these userChrome.css settings along with zifiridark:
   margin-top: 0px !important;
   margin-bottom: 0px !important;
   border-radius: 0px 0px !important;
+  background-color: color-mix(in srgb, currentColor 7%, transparent); /*Change currentColor value to tweak background tab shade*/
 }
 
-.tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background {
-  background-color: color-mix(in srgb, currentColor 10%, transparent);
+.tabbrowser-tab[selected=true] .tab-background ,
+.tabbrowser-tab[multiselected=true] .tab-background {
+  background-color: var(--toolbar-bgcolor) !important;
+  background-image: var(--toolbar-bgimage) !important;
 }
+
 ```
 
 [Click here to learn how to create userChrome.css](https://www.userchrome.org/how-create-userchrome-css.html)
