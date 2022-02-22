@@ -1,6 +1,8 @@
 # zifiridark
 zifiridark is a Mozilla Firefox theme created by me. It's highly contrasted and OLED-friendly.
 
+[Get zifiridark!](https://addons.mozilla.org/tr/firefox/addon/zifiridark/)
+
 I highly recommend using these userChrome.css settings along with zifiridark:
 
 ```css
