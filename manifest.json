@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "version": "1.4",
   "name": "zifiridark",
-  "author":"wete";
+  "author":"wete",
   "theme": {
     "images": {},
     "properties": {
