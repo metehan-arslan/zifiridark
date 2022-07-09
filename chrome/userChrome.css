@@ -11,3 +11,7 @@
   background-image: var(--toolbar-bgimage) !important;
 }
 
+.tabbrowser-tab {
+  max-height: var(--tab-min-height) !important;
+}
+
