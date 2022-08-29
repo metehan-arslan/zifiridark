@@ -1,0 +1,71 @@
+{
+  "manifest_version": 2,
+
+  "applications": {
+    "gecko": {
+      "id": "zifiridark-thunderbird@wete"
+    }
+  },
+
+  "name": "zifiridark",
+  "description": "Black theme for dark theme lovers and OLED users.",
+  "author": "wete",
+  "version": "1.0",
+
+  "theme": {
+    "colors": {
+      "tab_background_text": "rgb(128, 128, 128)",
+      "icons": "rgba(255, 255, 255, 0.25)",
+      "frame": "rgb(0, 0, 0)",
+      "popup": "rgba(0, 0, 0, 0.75)",
+      "popup_text": "rgba(255, 255, 255, 0.5)",
+      "popup_border": "rgba(0, 0, 0, 0)",
+      "popup_highlight": "rgb(0, 0, 0)",
+      "tab_line": "rgba(255, 255, 255, 0)",
+      "toolbar": "rgb(0, 0, 0)",
+      "toolbar_bottom_separator": "rgba(0, 0, 0, 0)",
+      "toolbar_field": "rgb(0, 0, 0)",
+      "toolbar_field_border": "rgba(0, 0, 0, 0)",
+      "toolbar_field_border_focus": "rgba(255, 255, 255, 0)",
+      "toolbar_field_text": "rgba(255, 255, 255, 0.8)",
+      "toolbar_field_focus": "rgba(0, 0, 0, 0)",
+      "sidebar": "rgb(0, 0, 0)",
+      "sidebar_text": "rgb(128, 128, 128)",
+      "sidebar_highlight": "rgb(0, 0, 0)",
+      "sidebar_highlight_text": "rgb(255, 255, 255)",
+      "sidebar_highlight_border": "rgb(64, 64, 64)",
+      "sidebar_border": "rgb(0, 0, 0)",
+      "button": "rgb(63, 62, 71)",
+      "button_hover": "rgb(82, 82, 94)",
+      "button_active": "rgb(91, 91, 102)",
+      "error_text_color": "rgb(255, 154, 162)",
+      "input_background": "#42414d",
+      "input_color": "#bfbfc9",
+      "input_border": "#8f8f9d"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "panel_hover": "color-mix(in srgb, currentColor 9%, transparent)",
+      "panel_active": "color-mix(in srgb, currentColor 14%, transparent)",
+      "panel_active_darker": "color-mix(in srgb, currentColor 25%, transparent)"
+    }
+  },
+
+  "theme_experiment": {
+    "stylesheet": "experiment.css",
+    "colors": {
+      "button": "--button-bgcolor",
+      "button_hover": "--button-hover-bgcolor",
+      "button_active": "--button-active-bgcolor",
+      "error_text_color": "--error-text-color",
+      "input_background": "--input-bgcolor",
+      "input_color": "--input-color",
+      "input_border": "--input-border-color"
+    },
+    "properties": {
+      "panel_hover": "--arrowpanel-dimmed",
+      "panel_active": "--arrowpanel-dimmed-further",
+      "panel_active_darker": "--arrowpanel-dimmed-even-further"
+    }
+  }
+}
