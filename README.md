@@ -1,5 +1,5 @@
 # zifiridark
-zifiridark is a OLED-friendly Mozilla Firefox and Mozilla Thunderbird theme.
+zifiridark is a OLED-friendly theme for Mozilla Firefox and Mozilla Thunderbird.
 
 [Get zifiridark!](https://addons.mozilla.org/en/firefox/addon/zifiridark/)
 
